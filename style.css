@@ -2959,3 +2959,23 @@ footer{
   }
 
 }
+.location-box {
+    position: relative;   /* IMPORTANT: makes QR position inside this box */
+    padding: 20px;
+    background: #f8f9ff;
+    border-radius: 10px;
+}
+
+/* QR positioned bottom-right */
+.qr-container {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.qr-container img {
+    width: 150px;   /* adjust size */
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
